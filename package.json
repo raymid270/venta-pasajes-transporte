@@ -1,5 +1,4 @@
-
-  {
+{
   "name": "venta-pasajes-transporte",
   "private": true,
   "version": "0.0.0",
@@ -9,6 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "vite build && gh-pages -d dist"
-  
+  },
+  "dependencies": {
+    "firebase": "^13.4.0"
   }
 }
