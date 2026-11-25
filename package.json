@@ -1,18 +1,14 @@
-{
+
+  {
   "name": "venta-pasajes-transporte",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "homepage": "https://raymid270.github.io/venta-pasajes-transporte/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.5.44"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.10",
-    "vite": "^8.3.6"
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
+  
   }
 }
